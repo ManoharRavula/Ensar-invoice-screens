@@ -1,0 +1,217 @@
+<body>
+  <div class="page-container">
+    <div class="rectangle">
+      <div class="create">
+        <img role="img" src="assets/2152657-2@1x.png" /> Create Invoice
+      </div>
+      <button type="button" style="width: 200px" class="btn btn1-primary">
+        <img role="img" src="assets/2152657@1x.png" />&nbsp;&nbsp;Create Invoice
+      </button>
+      <img class="line" src="assets/line-4@1x.png" />
+      <div class="sub">
+        <label
+          for="subject"
+          style="position: absolute; top: 5px; font-size: 20px"
+          >Subject</label
+        >
+        <input
+          type="text"
+          style="padding: 7px; width: 850px; position: absolute; left: 120px"
+          id="subject"
+          placeholder="Subject"
+        />
+      </div>
+      <div class="invo">
+        <label for="invoice" style="font-size: 20px">Invoice For</label>
+        <input
+          type="text"
+          style="padding: 7px; width: 400px; position: absolute; left: 136px"
+          id="invoice"
+          placeholder="invoice for"
+        />
+      </div>
+      <div class="po">
+        <label for="po num" style="font-size: 20px">PO Number</label>
+        <input
+          type="text"
+          style="
+            padding: 7px;
+            width: 400px;
+            position: absolute;
+            left: 120px;
+            top: -3px;
+          "
+          id="po"
+          placeholder="Po number"
+        />
+      </div>
+      <div class="dates">
+        <label for="issue" style="font-size: 20px"
+          >Issue date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input
+          type="date"
+          style="padding: 7px; width: 400px"
+          id="issue"
+          placeholder="Issue date"
+        />
+        <label for="due" style="font-size: 20px; left: 40px">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Due Date</label
+        >
+        <input
+          type="date"
+          style="padding: 7px; width: 400px; position: absolute; left: 680px"
+          id="due"
+          placeholder="Due date"
+        />
+      </div>
+      <div class="disc">
+        <label for="discount" style="font-size: 20px">Discount</label>
+        <input
+          type="text"
+          style="padding: 7px; position: absolute; left: 132px; width: 400px"
+          id="discount"
+          placeholder="discount"
+        />
+      </div>
+      <div class="rectangle-2">
+        <div class="info">
+          Item
+          Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description
+        </div>
+        <div class="q-u-c">
+          Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit
+          Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGST%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SGST%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amount
+        </div>
+        <div class="rectangle-3">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 85px;
+              padding: 8px;
+            "
+            placeholder="Item value"
+          />
+        </div>
+        <div class="rectangle-4">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 300px;
+              padding: 8px;
+            "
+            placeholder="Description"
+          />
+        </div>
+        <div class="rectangle-5">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 75px;
+              padding: 8px;
+            "
+            placeholder="Quantity"
+          />
+        </div>
+        <div class="rectangle-6">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 75px;
+              padding: 8px;
+            "
+            placeholder="Unit Price"
+          />
+        </div>
+        <div class="rectangle-7">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 75px;
+              padding: 8px;
+            "
+            placeholder="CGST%"
+          />
+        </div>
+        <div class="rectangle-8">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 75px;
+              padding: 8px;
+            "
+            placeholder="SGST%"
+          />
+        </div>
+        <div class="rectangle-9">
+          <input
+            type="text"
+            style="
+              background-color: transparent;
+              border: 0;
+              width: 75px;
+              padding: 8px;
+            "
+            placeholder="Amount"
+          />
+        </div>
+      </div>
+      <div class="rectangle-10">
+        <div class="details">
+          Amount
+          <br />
+          Discount
+          <br />
+          Total Amount
+        </div>
+        <div class="info-1">
+          ₹ 10,000.00
+          <br />
+          ₹ 1000.00
+          <br />
+          ₹ 9000.00
+        </div>
+        <img class="line-2" role="img" src="assets/line-5@1x.png" />
+        <img class="line-3" role="img" src="assets/line-5@1x.png" />
+      </div>
+      <img class="line-4" src="assets/line-10@1x.png" />
+      <button
+        type="button"
+        style="width: 120px"
+        class="btn btn2-primary"
+        (click)="openModalPopup()"
+      >
+        Preview
+      </button>
+      <button type="button" (click)="submit()" style="width: 120px" class="btn btn3-primary" >
+        Submit
+      </button>
+      <button type="button" style="width: 120px" class="btn btn4-primary">
+        Reset
+      </button>
+    </div>
+    <footer class="company">
+      <a href="#" style="text-decoration: none;"
+        ><img role="img" src="assets/path-2274@1x.png" />
+        &nbsp;847-769-8937&nbsp;&nbsp;<img
+          role="img"
+          src="assets/path-2273@1x.png"
+        />
+        &nbsp;sales@ensarsolutions.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a
+      >Copyright@2020 Ensar Solutions.
+    </footer>
+    <router-outlet></router-outlet>
+  </div>
+</body>

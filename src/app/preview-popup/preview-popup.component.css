@@ -1,0 +1,45 @@
+.rectangle{
+    background-color:whitesmoke;
+    border-radius: 3px;
+    height: 210px;
+    left: 640px;
+    position: absolute;
+    top: 255px;
+    width: 450px;
+}
+.send{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: rgba(0,112,172,1.0);
+    font-size: 20px;
+
+}
+.line{
+    position: absolute;
+    width: 420px;
+    top: 60px;
+    left: 10px;
+    height: 2px;
+
+}
+.sent{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    padding: 8px;
+}
+.btn-primary{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    width: 100px;
+}
+.btn1-primary{
+    position: absolute;
+    left: 150px;
+    bottom: 30px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+}

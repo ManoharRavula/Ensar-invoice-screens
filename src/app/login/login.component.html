@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+<body>
+    <img class="logo" role="img" src="assets/group-1220@1x.png">
+    <img class="logo2" [src] = "myimage" alt="">
+<form class="container">
+    <div class="form-group">
+        <label for="email"><img src="assets/1946426@1x.png" width="25px"> Email Address:</label>
+        <input type="email" 
+        id="email"  class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="password"> Password:&nbsp; <a href="#" style="text-decoration: none;">Forgot Your Password?</a> </label>
+        <input type="password" id="password" class="form-control" name="password" placeholder="password">
+    </div>
+    <button type="button" (click)="navigateto()" style="width: 200px;" class="btn btn-primary">Sign in</button><br>
+    <p>Dont have account? &nbsp;<a href="#" style="text-decoration: none;">Sign up here</a></p>
+</form>
+<footer><a href="#" style="text-decoration: none;">847-769-8937 sales@ensarsolution.com</a><br><p>copyrights @2020 ensarsolutions</p></footer>
+</body>
+</html>

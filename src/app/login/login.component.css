@@ -1,0 +1,30 @@
+form{
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+.form-control{
+    padding:10px;
+    width: 250px;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+    bottom: 450px;
+}
+footer{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+   
+}
+.logo2{
+    position: absolute;
+    right: 100px;
+    bottom: 90px;
+}
+.btn-primary{
+    background-color:rgba(240,109,75,1);
+    color: white;
+}
+ 
